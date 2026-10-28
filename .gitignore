@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.db
+.env
+*.egg-info/
+*.bak.jsonl
+.claude/settings.local.json
+
+# Measurement work stays local: it carries transcript data that can't be published.
+eval/
+
+# Working notes and write-ups: README.md is the only doc that ships.
+docs/
+CLAUDE.md
